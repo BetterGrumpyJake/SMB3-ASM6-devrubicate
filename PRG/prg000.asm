@@ -6166,6 +6166,10 @@ PRG000_DBDC:
 ;  'A' = ObjectID of the collided-with object
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ; Enable object-to-object by state (0 = Enabled, 1 = Disabled)
+	;used by
+	;held shell collision
+	;kicked shell collision
+	;tail swipe collision
 Obj2Obj_EnByState:
     .byte $01   ; State 0: Dead/Empty
     .byte $01   ; State 1: Initializing
